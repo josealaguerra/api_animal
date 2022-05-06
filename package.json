@@ -1,0 +1,29 @@
+{
+  "name": "api_animal",
+  "version": "1.0.0",
+  "description": "API Animal",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josealaguerra/api_animal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josealaguerra/api_animal/issues"
+  },
+  "homepage": "https://github.com/josealaguerra/api_animal#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-myconnection": "^1.0.4",
+    "mysql": "^2.18.1"
+  }
+}
